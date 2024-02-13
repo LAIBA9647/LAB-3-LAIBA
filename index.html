@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Student Portal</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <img src="imgs/sidebar.png" alt="" />
+        <a href="#Finance">Finance</a>
+        <a href="#Courses">Courses</a>
+        <a href="#attendance">Attendence</a>
+        <a href="#">Result</a>
+        <a href="#notice">Notice</a>
+      </div>
+      <div class="main-content">
+        <div class="welcome-card content-card">
+          <h2>Welcome back, Raja!</h2>
+          <!-- here u have to fetch name from the db for all the entries like name finances etc -->
+          <p>Always stay updated in your student portal</p>
+        </div>
+
+        <h2 id="Finance" class="block">Finance</h2>
+        <br />
+        <div class="finance-content-card">
+          <h3>RS 10,000</h3>
+          <p>Total Payable</p>
+        </div>
+        <div class="finance-content-card">
+          <h3>RS 5,000</h3>
+          <p>Total Paid</p>
+        </div>
+        <div class="finance-content-card">
+          <h3>RS 300</h3>
+          <p>Others</p>
+        </div>
+        <h2 id="Courses" class="block">Enrolled Courses</h2>
+        <div class="courses-content-card">
+          <p>Object oriented programming</p>
+        </div>
+
+        <div class="courses-content-card">
+          <p>Fundamentals of database systems</p>
+        </div>
+        <h2 class="block">Attendance</h2>
+        <section id="attendance" class="attendance">
+          <table>
+            <tr>
+              <th>Courses</th>
+              <th>Attendance</th>
+            </tr>
+            <tr>
+              <td>COA</td>
+              <td>84%</td>
+            </tr>
+            <tr>
+              <td>DSA</td>
+              <td>90%</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table>
+        </section>
+        <section id="notice" class="notice">
+          <h2>Notice</h2>
+          <p>
+            Important announcement: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nullam eget justo auctor, blandit justo ac,
+            vestibulum urna.
+          </p>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
